@@ -1,0 +1,144 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "marks_textbox",
+          "class" : "TextField",
+          "alignment" : "center",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "F1D30AFD-F432-4A4B-A939-E7AB437B5101"
+        },
+        "frame" : "{{114, 95}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "flex" : "WHLRTB",
+          "autocorrection_type" : "default",
+          "name" : "show_marks_textview",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "alignment" : "center",
+          "editable" : false,
+          "frame" : "{{412, 284}, {200, 200}}",
+          "uuid" : "9D480D78-24E8-4569-9680-475BFCF3F636"
+        },
+        "frame" : "{{146, 270}, {600, 81}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter a mark between 0-100 in the textbox below.",
+          "font_name" : "<System>",
+          "name" : "enter_marks_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "41373ED0-A669-4CC4-A196-2E78437D5541"
+        },
+        "frame" : "{{22, 32}, {420, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Show Average",
+          "name" : "average_button",
+          "action" : "show_average",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "uuid" : "5B90F80F-2A43-4F1D-9FBE-D25934500BCB"
+        },
+        "frame" : "{{155, 359}, {118, 33}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "show_final_average_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "BCBEEEBD-D23E-4D3B-977A-0B3566A80D6C"
+        },
+        "frame" : "{{85, 422}, {261, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Submit Mark",
+          "name" : "submit_mark_button",
+          "action" : "enter_mark",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "uuid" : "B1D952E0-F29D-42EC-871F-92DA7C0E445E"
+        },
+        "frame" : "{{146, 176}, {127, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "condition_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "2ED09BFB-F34F-426B-90E0-78250B88682E"
+        },
+        "frame" : "{{22, 136}, {420, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
