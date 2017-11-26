@@ -1,0 +1,130 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{88, 46}, {423, 46}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{244, 229}, {150, 32}}",
+          "uuid" : "807817BF-D77B-45C9-86AF-7BDBBCC3AC36",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Type in a number between 1 and 100",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{166, 135}, {281, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{219, 229}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "C2F8B785-2EB4-4C2E-865F-B0170AE268DF",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "numbers_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{97, 269}, {426, 80}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "font_size" : 17,
+          "editable" : true,
+          "frame" : "{{219, 145}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "45393541-FCC1-490D-8576-3D0D521B2ACC",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "show_number_textview",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{203, 357}, {219, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "show_average_touch_up_inside",
+          "frame" : "{{279, 229}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Show average ",
+          "uuid" : "B0EED0EE-CE87-4E1C-A326-C0EACBF55789",
+          "class" : "Button",
+          "background_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "name" : "average_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{171, 409}, {276, 48}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{244, 229}, {150, 32}}",
+          "uuid" : "69E0A914-2B26-4C2B-8CCD-60C4F3B8C752",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "average_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{210.5, 190}, {219, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "add_number_touch_up_inside",
+          "frame" : "{{279, 229}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Add numbers",
+          "uuid" : "B0EED0EE-CE87-4E1C-A326-C0EACBF55789",
+          "class" : "Button",
+          "background_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "name" : "add_number_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {638, 490}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
